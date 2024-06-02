@@ -88,3 +88,28 @@ img {
 .mb-5 {
     margin-bottom: 3rem !important;
 }
+footer {
+    display: block;
+    unicode-bidi: isolate;
+    margin: 60px 0;
+}
+footer .contact-box{
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+@media (min-width: 768px) {
+    .d-md-flex {
+        display: flex !important;
+    }
+}.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
